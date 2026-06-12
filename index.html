@@ -118,7 +118,25 @@
       .hero, .grid { grid-template-columns: 1fr; }
       h1 { font-size: 40px; }
       .hero { padding-top: 55px; }
-    }
+    }@media (max-width: 480px) {
+  h1 { font-size: 34px; }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 22px;
+  }
+
+  .mock-item {
+    padding: 14px;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
   </style>
 </head>
 <body>
