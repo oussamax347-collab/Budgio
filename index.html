@@ -114,6 +114,20 @@
       margin-bottom: 18px;
       font-weight: bold;
     }
+    .stats{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:25px 0;
+}
+
+.stats div{
+  background:#1e293b;
+  padding:10px 15px;
+  border-radius:12px;
+  border:1px solid #334155;
+  font-size:14px;
+}
     @media (max-width: 850px) {
       .hero, .grid { grid-template-columns: 1fr; }
       h1 { font-size: 40px; }
@@ -151,7 +165,7 @@
         <button onclick="setLang('it')">IT</button>
         <button onclick="setLang('ar')">AR</button>
       </div>
-    </nav>
+    <strong>Looking for:</strong> Trip to Rome
   </div>
 </header>
 
@@ -164,6 +178,12 @@
         Budgio helps you find the best product, trip, gift, or deal based on your budget and needs.
       </p>
       <a href="#request" class="btn" data-i18n="cta">Start your search</a>
+      <div class="stats">
+  <div>🔍 Budget Search</div>
+  <div>✈️ Travel Deals</div>
+  <div>📱 Tech Products</div>
+  <div>🎁 Gift Ideas</div>
+</div>
     </div>
 
     <div class="card">
